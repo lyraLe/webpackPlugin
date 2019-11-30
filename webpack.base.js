@@ -1,7 +1,7 @@
 /*
  * @Author: LyraLee
  * @Date: 2019-11-30 09:16:45
- * @LastEditTime: 2019-11-30 10:14:28
+ * @LastEditTime: 2019-11-30 14:10:57
  * @Description: file content
  */
 const path = require('path');
@@ -28,8 +28,10 @@ module.exports = {
               ['@babel/plugin-proposal-decorators', {legacy: true}],
               ['@babel/plugin-proposal-class-properties', {loose: true}]
             ]            
-          }
-        }
+          },
+        },
+        exclude: /node_modules/,
+        include: path.resolve(__dirname, 'src')
       },
       {
         test: /\.jpg|svg|gif$/,
