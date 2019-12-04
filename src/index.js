@@ -1,7 +1,6 @@
 /*
  * @Author: LyraLee
  * @Date: 2019-11-30 07:51:39
- * @LastEditTime: 2019-12-04 19:10:21
  * @Description: file content
  */
 import React from 'react';
